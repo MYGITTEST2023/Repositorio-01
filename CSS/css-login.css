@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --ff-primary: "Inter", sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: black;
+    color: white;
+    height: 30rem;
+    width: 15rem;
+    border-radius: 1.4rem;
+    box-shadow: 0rem 0rem 0.6rem rgb(0, 0, 0);
+
+    transition: width .3s, height .3s;
+}
+
+section#login > div#image {
+    background: url(../Images/image.jpg), no-repeat;
+    background-size: cover;
+    height: 12.5rem;
+}
+
+section#login > #formulario {
+    padding: 0.6rem;
+}
+
+section#login > #formulario > h1 {
+    font-family: var(--ff-primary);
+     
+}
