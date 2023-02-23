@@ -36,9 +36,11 @@ section#login {
     box-shadow: 0rem 0rem 0.6rem rgb(0, 0, 0);
 
     transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#image {
+    display: block;
     background: url(../Images/image.jpg), no-repeat;
     background-size: cover;
     height: 12.5rem;
@@ -50,5 +52,15 @@ section#login > #formulario {
 
 section#login > #formulario > h1 {
     font-family: var(--ff-primary);
-     
+    text-align: center;
+    margin-bottom: .6rem;
+}
+
+div#formulario > p {
+    display: block;
+    font-size: 1em;
+}
+
+span {
+    background-color: blue;
 }

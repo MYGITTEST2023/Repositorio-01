@@ -41,4 +41,12 @@ Extra large devices (large laptops and desktops, 1200px and up)
         float: right;
         width: 50%;
     }
+
+    div#formulario > h {
+        font-size: 2em;
+    }
+    
+    div#formulario > p {
+        font-size:1.2 ;
+    }
 }
